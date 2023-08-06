@@ -1,0 +1,220 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: rgb(255, 255, 255);
+   
+}
+h3{
+    text-align: center;
+}
+.topbox{
+    background-color: bisque;
+    width: 100%;
+    height: 150px;
+    background-image: url(1.jfif);
+    background-size: contain;
+    
+}
+.contact{
+    color: white;
+    text-align: right;
+}
+.body{
+    /* background-image: url(3.jfif); */
+    background-image: url(abstract-digital-grid-black-background.jpg);
+    background-size: contain;
+
+}
+.sidebar{
+    background-color: rgb(47, 58, 58);
+    text-decoration: solid;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px black;
+    border-radius: 18px;
+    text-align: center
+   
+}
+.sidebar{
+    display: flex;
+    border: 5px black;
+    border-radius: 18px;
+    text-align: center;
+}
+ #image1{
+    float: right;
+    
+ }
+ #degreeimg{
+   float: right;
+ }
+ .intro{
+    text-align: center;
+  
+ }
+ .contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   color: black;
+ }
+ .hobby{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .degree{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ .animation{
+    width: 180;
+
+  text-align: center;
+  animation: 3s linear 1s infinite running slidein;
+  
+ }
+ a{
+    
+    color: rgb(251, 250, 252);
+    text-decoration: none;
+ }
+ a:hover{
+   background-color: rgb(129, 107, 211);
+ }
+ .animation:hover{
+    size: 110px;
+ }
+ /* animation adding */
+ h1{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2.5px 2px 1px white;
+    
+    cursor: pointer;
+    animation: moveLoop 4s linear infinite; /* Adjust the duration (4s) to control the speed of the animation */
+  }
+  .anchor_skills{
+font-size: 25px;
+  }
+  h2{
+   text-shadow: 1.5px 1px 0.7px white;
+  }
+ p{
+   font-size: 25px;
+   color: white;
+ }
+  @keyframes moveLoop {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Adjust the value to control the distance the heading moves */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  #degreeimg{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   float: right;
+  }
+  /* myimage card */
+  .container{
+   width: 90%;
+   height: 50vh;
+   padding: 50px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box img{
+   width: 200px;
+   border-radius: 10px;
+}
+.box{
+   width: 200px;
+   margin: 0 10px;
+   box-shadow: 0 0 20px 2.5px rgb(7, 7, 7,1);
+  transition: 1s;
+}
+.box:hover{
+   transform: scale(1.3);
+   z-index: 2;
+}
+
+/* skills image card */
+.container2{
+   width: 90%;
+   height: 25vh;
+   padding: 50px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box img{
+   width: 200px;
+   border-radius: 10px;
+}
+.box{
+   width: 200px;
+   margin: 0 10px;
+   box-shadow: 0 0 20px 2.5px rgb(7, 7, 7,1);
+  transition: 1s;
+}
+.box:hover{
+   transform: scale(1.3);
+   z-index: 2;
+}
+.anchor_skills{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+/* Greeting animation */
+
+
+.animation-container {
+ 
+   bottom: 20px;
+   right: 20px;
+   opacity: 0.8;
+ }
+ 
+ .greetings-box {
+   
+   background-color: #f1f1f1;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   animation: moveAndFade 6s infinite;
+ }
+ 
+ .greetings {
+   font-size: 24px;
+   margin-bottom: 5px;
+ }
+ 
+ .thanks {
+   font-size: 18px;
+ }
+ 
+ @keyframes moveAndFade {
+   0%, 100% {
+     transform: translateX(0);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   }
+   50% {
+     transform: translateX(10px);
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+   }
+ }
+ 
